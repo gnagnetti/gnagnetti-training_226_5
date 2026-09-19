@@ -1,6 +1,1 @@
-{
-  "name": "training-226-4",
-  "compatibility_date": "2024-09-26",
-    "directory": "./FW226-Training/public"
-  }
-}
+{"name": "training-226-4", "main": "load_multilingual.py"}
