@@ -1,6 +1,7 @@
 {
   "name": "training-226-3",
-  "main": "load_multilingual.py",
   "compatibility_date": "2024-09-26",
-  "compatibility_flags": ["python_workers"]
+  "assets": {
+    "directory": "./FW226-Training/public"
+  }
 }
