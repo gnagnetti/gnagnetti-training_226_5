@@ -1,1 +1,11 @@
-{"name": "training-226-4", "main": "load_multilingual.py"}
+{
+  "name": "training",
+  "main": "load_multilingual.py",
+  "compatibility_date": "2026-09-19",
+  "compatibility_flags": [
+    "python_workers"
+  ],
+  "assets": {
+    "directory": "./public"
+  }
+}
