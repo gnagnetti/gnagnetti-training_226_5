@@ -44,7 +44,8 @@
         "lv": "Look 1 (Evening Sapphire)",
         "lt": "Look 1 (Evening Sapphire)",
         "pl": "Look 1 (Evening Sapphire)",
-        "uk": "Look 1 (Evening Sapphire)"
+        "uk": "Look 1 (Evening Sapphire)",
+        "ru": null
       },
       "text": {
         "ru": "Образ 1 (Вечерний сапфир): Сочетание бархатного платья Gray 1221 с клатчем Ialofane 1227 0002 для создания монохромного аристократичного ансамбля.",
@@ -80,7 +81,8 @@
         "lv": "Look 2 (Modern Luxury)",
         "lt": "Look 2 (Modern Luxury)",
         "pl": "Look 2 (Modern Luxury)",
-        "uk": "Look 2 (Modern Luxury)"
+        "uk": "Look 2 (Modern Luxury)",
+        "ru": null
       },
       "text": {
         "ru": "Образ 2 (Современная роскошь): Элегантная блуза Lotty 4625 в паре с клатчем Ialofane 0993 0002 и укороченным жакетом Strass 0101.",
@@ -122,10 +124,11 @@
         "lv": "Look 2 (Modern Luxury)",
         "lt": "Look 2 (Modern Luxury)",
         "pl": "Look 2 (Modern Luxury)",
-        "uk": "Look 2 (Modern Luxury)"
+        "uk": "Look 2 (Modern Luxury)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 3 (Строгий Black Tie): Композиция из жакета Soana 0101, бюстье Lunetta 0101, брюк Ortesi 0101 и клатча Ialofane 0101 0002.",
+        "ru": "Образ 2 (Современная роскошь): Элегантная блуза Lotty 4625 в паре с клатчем Ialofane 0993 0002 и укороченным жакетом Strass 0101.",
         "en": "An elegant Lotty 4625 blouse paired with an Ialofane 0993 0002 clutch and a cropped Strass 0101 jacket.",
         "ar": "An elegant Lotty 4625 blouse paired with an Ialofane 0993 0002 clutch and a cropped Strass 0101 jacket.",
         "ka": "An elegant Lotty 4625 blouse paired with an Ialofane 0993 0002 clutch and a cropped Strass 0101 jacket.",

@@ -29,7 +29,8 @@
         "lv": "Look 1 (Evening luxe)",
         "lt": "Look 1 (Evening luxe)",
         "pl": "Look 1 (Evening luxe)",
-        "uk": "Look 1 (Evening luxe)"
+        "uk": "Look 1 (Evening luxe)",
+        "ru": null
       },
       "text": {
         "ru": "Образ 1 (Вечерний люкс): Роскошное сочетание блузы Liquorosa 0101 с элегантной юбкой Faustin 0101, дополненное укороченным кабаном Svista 0101.",
@@ -70,10 +71,11 @@
         "lv": "Look 3 (Formal Black Tie)",
         "lt": "Look 3 (Formal Black Tie)",
         "pl": "Look 3 (Formal Black Tie)",
-        "uk": "Look 3 (Formal Black Tie)"
+        "uk": "Look 3 (Formal Black Tie)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 2 (Аристократичный выход): Ансамбль из блузы Liquorosa 0101 и юбки Faustin 0101 под капой Situazione 0101, с клатчем Iroise 0101 0002.",
+        "ru": "Образ 3 (Торжественный Black Tie): Монохромный черный сет с блузой Liquorosa 0101, юбкой Faustin 0101 и босоножками Udita 0101 0101 0002. Ювелирные акценты: пояс Dedicata 0101 0002 0001 и сумка Invitata D 0001 0002.",
         "en": "A monochrome black set with the Liquorosa 0101 blouse, the Faustin 0101 skirt and the Udita 0101 0101 0002 sandals. Jewelry accents: the Dedicata 0101 0002 0001 belt and the Invitata D 0001 0002 bag.",
         "ar": "A monochrome black set with the Liquorosa 0101 blouse, the Faustin 0101 skirt and the Udita 0101 0101 0002 sandals. Jewelry accents: the Dedicata 0101 0002 0001 belt and the Invitata D 0001 0002 bag.",
         "ka": "A monochrome black set with the Liquorosa 0101 blouse, the Faustin 0101 skirt and the Udita 0101 0101 0002 sandals. Jewelry accents: the Dedicata 0101 0002 0001 belt and the Invitata D 0001 0002 bag.",
@@ -118,10 +120,11 @@
         "lv": "Look 2 (Aristocratic outing)",
         "lt": "Look 2 (Aristocratic outing)",
         "pl": "Look 2 (Aristocratic outing)",
-        "uk": "Look 2 (Aristocratic outing)"
+        "uk": "Look 2 (Aristocratic outing)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 3 (Торжественный Black Tie): Монохромный черный сет с блузой Liquorosa 0101, юбкой Faustin 0101 и босоножками Udita 0101 0101 0002. Ювелирные акценты: пояс Dedicata 0101 0002 0001 и сумка Invitata D 0001 0002.",
+        "ru": "Образ 2 (Аристократичный выход): Ансамбль из блузы Liquorosa 0101 и юбки Faustin 0101 под капой Situazione 0101, с клатчем Iroise 0101 0002.",
         "en": "An ensemble consisting of the Liquorosa 0101 blouse and the Faustin 0101 skirt under the Situazione 0101 cape, with the Iroise 0101 0002 clutch.",
         "ar": "An ensemble consisting of the Liquorosa 0101 blouse and the Faustin 0101 skirt under the Situazione 0101 cape, with the Iroise 0101 0002 clutch.",
         "ka": "An ensemble consisting of the Liquorosa 0101 blouse and the Faustin 0101 skirt under the Situazione 0101 cape, with the Iroise 0101 0002 clutch.",

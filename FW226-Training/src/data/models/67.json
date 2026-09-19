@@ -29,10 +29,11 @@
         "lv": "Look 3 (Concise elegance)",
         "lt": "Look 3 (Concise elegance)",
         "pl": "Look 3 (Concise elegance)",
-        "uk": "Look 3 (Concise elegance)"
+        "uk": "Look 3 (Concise elegance)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 1 (Полный ансамбль): Платье Gallerie 3404 в сочетании с браслетом Necessario 0986 0002, ремнем Danielina 2432 0002 и изысканной брошью Nicolet 1623 0002. Завершают образ туфли Uragano A 0986 и мягкая стола Richiesta 0910.",
+        "ru": "Образ 3 (Лаконичная элегантность): Платье Gallerie 3404, дополненное аксессуаром Richiesta 0910 и сумкой Idilliaco A 0986 0002.",
         "en": "Gallerie 3404 dress, complemented by a Richiesta 0910 accessory and an Idilliaco A 0986 0002 bag.",
         "ar": "Gallerie 3404 dress, complemented by a Richiesta 0910 accessory and an Idilliaco A 0986 0002 bag.",
         "ka": "Gallerie 3404 dress, complemented by a Richiesta 0910 accessory and an Idilliaco A 0986 0002 bag.",
@@ -84,7 +85,8 @@
         "lv": "Look 2 (Urban chic)",
         "lt": "Look 2 (Urban chic)",
         "pl": "Look 2 (Urban chic)",
-        "uk": "Look 2 (Urban chic)"
+        "uk": "Look 2 (Urban chic)",
+        "ru": null
       },
       "text": {
         "ru": "Образ 2 (Городской шик): Многослойный образ с курткой из эко-меха Stelle 0919, надетым под платье Gallerie 3404 пуловером Manos F 0970 и сумкой Iago 2240 0002.",
@@ -129,10 +131,11 @@
         "lv": "Look 1 (Full ensemble)",
         "lt": "Look 1 (Full ensemble)",
         "pl": "Look 1 (Full ensemble)",
-        "uk": "Look 1 (Full ensemble)"
+        "uk": "Look 1 (Full ensemble)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 3 (Лаконичная элегантность): Платье Gallerie 3404, дополненное аксессуаром Richiesta 0910 и сумкой Idilliaco A 0986 0002.",
+        "ru": "Образ 1 (Полный ансамбль): Платье Gallerie 3404 в сочетании с браслетом Necessario 0986 0002, ремнем Danielina 2432 0002 и изысканной брошью Nicolet 1623 0002. Завершают образ туфли Uragano A 0986 и мягкая стола Richiesta 0910.",
         "en": "Gallerie 3404 dress combined with a Necessario 0986 0002 bracelet, Danielina 2432 0002 belt and an exquisite Nicolet 1623 0002 brooch. The look is finished with Uragano A 0986 shoes and a soft Richiesta 0910 stole.",
         "ar": "Gallerie 3404 dress combined with a Necessario 0986 0002 bracelet, Danielina 2432 0002 belt and an exquisite Nicolet 1623 0002 brooch. The look is finished with Uragano A 0986 shoes and a soft Richiesta 0910 stole.",
         "ka": "Gallerie 3404 dress combined with a Necessario 0986 0002 bracelet, Danielina 2432 0002 belt and an exquisite Nicolet 1623 0002 brooch. The look is finished with Uragano A 0986 shoes and a soft Richiesta 0910 stole.",

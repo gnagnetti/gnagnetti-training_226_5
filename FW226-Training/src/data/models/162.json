@@ -34,10 +34,11 @@
         "lv": "Look 3 (Jewelry Accent)",
         "lt": "Look 3 (Jewelry Accent)",
         "pl": "Look 3 (Jewelry Accent)",
-        "uk": "Look 3 (Jewelry Accent)"
+        "uk": "Look 3 (Jewelry Accent)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 1 (Тональная роскошь): Сочетание платья Meduna 2050 с элегантным пальто Scansione 2046 и статусной сумкой Idilliaco A 0986 0002.",
+        "ru": "Образ 3 (Ювелирный акцент): Монохромный выход с платьем Meduna 2050, дополненным колье Navali 0002, Narsete 0002, серьгами Neanide 0002 и сапогами Usanza A 0986.",
         "en": "A monochrome look with the Meduna 2050 dress, complemented by Navali 0002 necklace, Narsete 0002, Neanide 0002 earrings and Usanza A 0986 boots.",
         "ar": "A monochrome look with the Meduna 2050 dress, complemented by Navali 0002 necklace, Narsete 0002, Neanide 0002 earrings and Usanza A 0986 boots.",
         "ka": "A monochrome look with the Meduna 2050 dress, complemented by Navali 0002 necklace, Narsete 0002, Neanide 0002 earrings and Usanza A 0986 boots.",
@@ -75,10 +76,11 @@
         "lv": "Look 4 (Evening Azure)",
         "lt": "Look 4 (Evening Azure)",
         "pl": "Look 4 (Evening Azure)",
-        "uk": "Look 4 (Evening Azure)"
+        "uk": "Look 4 (Evening Azure)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 2 (Городской шик): Платье Meduna 2544 в паре с брутальным жакетом Scalare 0101 и сумкой Ippolita 0101 0002 (Данные об URL отсутствуют в официальных источниках).",
+        "ru": "Образ 4 (Вечерняя лазурь): Платье Meduna 2544 со статусными аксессуарами: браслетом Navigero 0002, серьгами Neanide 0002, поясом Dedizione 0002, туфлями Uragano A 0101 и сумкой Idilliaco A 0101 0002.",
         "en": "Meduna 2544 dress with statement accessories: Navigero 0002 bracelet, Neanide 0002 earrings, Dedizione 0002 belt, Uragano A 0101 shoes and Idilliaco A 0101 0002 bag.",
         "ar": "Meduna 2544 dress with statement accessories: Navigero 0002 bracelet, Neanide 0002 earrings, Dedizione 0002 belt, Uragano A 0101 shoes and Idilliaco A 0101 0002 bag.",
         "ka": "Meduna 2544 dress with statement accessories: Navigero 0002 bracelet, Neanide 0002 earrings, Dedizione 0002 belt, Uragano A 0101 shoes and Idilliaco A 0101 0002 bag.",
@@ -116,10 +118,11 @@
         "lv": "Look 1 (Tonal Luxury)",
         "lt": "Look 1 (Tonal Luxury)",
         "pl": "Look 1 (Tonal Luxury)",
-        "uk": "Look 1 (Tonal Luxury)"
+        "uk": "Look 1 (Tonal Luxury)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 3 (Ювелирный акцент): Монохромный выход с платьем Meduna 2050, дополненным колье Navali 0002, Narsete 0002, серьгами Neanide 0002 и сапогами Usanza A 0986.",
+        "ru": "Образ 1 (Тональная роскошь): Сочетание платья Meduna 2050 с элегантным пальто Scansione 2046 и статусной сумкой Idilliaco A 0986 0002.",
         "en": "A combination of the Meduna 2050 dress with an elegant Scansione 2046 coat and the statement Idilliaco A 0986 0002 bag.",
         "ar": "A combination of the Meduna 2050 dress with an elegant Scansione 2046 coat and the statement Idilliaco A 0986 0002 bag.",
         "ka": "A combination of the Meduna 2050 dress with an elegant Scansione 2046 coat and the statement Idilliaco A 0986 0002 bag.",
@@ -166,10 +169,11 @@
         "lv": "Look 2 (Urban Chic)",
         "lt": "Look 2 (Urban Chic)",
         "pl": "Look 2 (Urban Chic)",
-        "uk": "Look 2 (Urban Chic)"
+        "uk": "Look 2 (Urban Chic)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 4 (Вечерняя лазурь): Платье Meduna 2544 со статусными аксессуарами: браслетом Navigero 0002, серьгами Neanide 0002, поясом Dedizione 0002, туфлями Uragano A 0101 и сумкой Idilliaco A 0101 0002.",
+        "ru": "Образ 2 (Городской шик): Платье Meduna 2544 в паре с брутальным жакетом Scalare 0101 и сумкой Ippolita 0101 0002 (Данные об URL отсутствуют в официальных источниках).",
         "en": "Meduna 2544 dress paired with the edgy Scalare 0101 jacket and Ippolita 0101 0002 bag (URL data not available in official sources).",
         "ar": "Meduna 2544 dress paired with the edgy Scalare 0101 jacket and Ippolita 0101 0002 bag (URL data not available in official sources).",
         "ka": "Meduna 2544 dress paired with the edgy Scalare 0101 jacket and Ippolita 0101 0002 bag (URL data not available in official sources).",

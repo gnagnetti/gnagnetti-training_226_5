@@ -29,7 +29,8 @@
         "lv": null,
         "lt": null,
         "pl": null,
-        "uk": null
+        "uk": null,
+        "ru": null
       },
       "text": {
         "ru": "На основе анализа lookbook и оформления витрин, юбка выступает фундаментом для множества статусных образов: Вариант 0101: В lookbook: - Элегантный трикотажный сет с поло Marius 3361. - Женственный образ с пуловером, украшенным воланами Maratea 0101. - Лаконичный дуэт с базовым пуловером Manos F 0101. - Многослойный ансамбль с жакетом Cremina 0101 0101 и пуловером Caprese B 0101.",
@@ -77,17 +78,17 @@
     {
       "title": {
         "ru": "Вариант 0101",
-        "en": "Вариант 0101",
-        "ar": "Вариант 0101",
-        "ka": "Вариант 0101",
-        "hy": "Вариант 0101",
-        "lv": "Вариант 0101",
-        "lt": "Вариант 0101",
-        "pl": "Вариант 0101",
-        "uk": "Вариант 0101"
+        "en": null,
+        "ar": null,
+        "ka": null,
+        "hy": null,
+        "lv": null,
+        "lt": null,
+        "pl": null,
+        "uk": null
       },
       "text": {
-        "ru": "Вариант 0101: Арт-образ с объемным пуловером Marostica 3390.",
+        "ru": "Арт-образ с объемным пуловером Marostica 3390.",
         "en": "An art-inspired look with the Marostica 3390 oversized pullover.",
         "ar": "An art-inspired look with the Marostica 3390 oversized pullover.",
         "ka": "An art-inspired look with the Marostica 3390 oversized pullover.",
@@ -119,7 +120,7 @@
         "uk": "Vetrina 14"
       },
       "text": {
-        "ru": "Вариант 0101: Vetrina 14: сочетание с тренчем Single 2731 1167, поло Clips 1161 и пуловером Contagiri 0202.",
+        "ru": "Vetrina 14: сочетание с тренчем Single 2731 1167, поло Clips 1161 и пуловером Contagiri 0202.",
         "en": "a combination with the Single 2731 1167 trench coat, the Clips 1161 polo, and the Contagiri 0202 pullover.",
         "ar": "a combination with the Single 2731 1167 trench coat, the Clips 1161 polo, and the Contagiri 0202 pullover.",
         "ka": "a combination with the Single 2731 1167 trench coat, the Clips 1161 polo, and the Contagiri 0202 pullover.",
@@ -160,7 +161,7 @@
         "uk": "Vetrina 18"
       },
       "text": {
-        "ru": "Вариант 0101: Vetrina 18: роскошный образ с мантией Rivolo 3278, пуловером Casistica 0101 2352 и рубашкой Bacche 0201.",
+        "ru": "Vetrina 18: роскошный образ с мантией Rivolo 3278, пуловером Casistica 0101 2352 и рубашкой Bacche 0201.",
         "en": "a luxurious look with the Rivolo 3278 cape, the Casistica 0101 2352 pullover, and the Bacche 0201 shirt.",
         "ar": "a luxurious look with the Rivolo 3278 cape, the Casistica 0101 2352 pullover, and the Bacche 0201 shirt.",
         "ka": "a luxurious look with the Rivolo 3278 cape, the Casistica 0101 2352 pullover, and the Bacche 0201 shirt.",
@@ -202,7 +203,7 @@
         "uk": "Vetrina 52"
       },
       "text": {
-        "ru": "Вариант 0101: Vetrina 52: классический контраст с жакетом Micologia 0101 2234 и пуловером Manos 0101.",
+        "ru": "Vetrina 52: классический контраст с жакетом Micologia 0101 2234 и пуловером Manos 0101.",
         "en": "a classic contrast with the Micologia 0101 2234 jacket and the Manos 0101 pullover.",
         "ar": "a classic contrast with the Micologia 0101 2234 jacket and the Manos 0101 pullover.",
         "ka": "a classic contrast with the Micologia 0101 2234 jacket and the Manos 0101 pullover.",
@@ -239,7 +240,7 @@
         "uk": "Vetrina 53"
       },
       "text": {
-        "ru": "Вариант 0101: Vetrina 53: многослойность с мантией Mira 0101, поло Mlacaria 0101 и шелковым фуляром Rloaschia 3359.",
+        "ru": "Vetrina 53: многослойность с мантией Mira 0101, поло Mlacaria 0101 и шелковым фуляром Rloaschia 3359.",
         "en": "layered look with the Mira 0101 cape, the Mlacaria 0101 polo, and the Rloaschia 3359 silk scarf.",
         "ar": "layered look with the Mira 0101 cape, the Mlacaria 0101 polo, and the Rloaschia 3359 silk scarf.",
         "ka": "layered look with the Mira 0101 cape, the Mlacaria 0101 polo, and the Rloaschia 3359 silk scarf.",

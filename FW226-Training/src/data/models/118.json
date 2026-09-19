@@ -23,7 +23,8 @@
         "lv": "Look 1 (Tonal chic)",
         "lt": "Look 1 (Tonal chic)",
         "pl": "Look 1 (Tonal chic)",
-        "uk": "Look 1 (Tonal chic)"
+        "uk": "Look 1 (Tonal chic)",
+        "ru": null
       },
       "text": {
         "ru": "Образ 1 (Тональный шик): Сочетание топа Logge 1133 с элегантным жакетом Spazzola 1133 1133 и брюками Ory 1133 1133.",
@@ -65,7 +66,8 @@
         "lv": "Look 2 (Evening sapphire)",
         "lt": "Look 2 (Evening sapphire)",
         "pl": "Look 2 (Evening sapphire)",
-        "uk": "Look 2 (Evening sapphire)"
+        "uk": "Look 2 (Evening sapphire)",
+        "ru": null
       },
       "text": {
         "ru": "Образ 2 (Вечерний сапфир): Композиция из топа Logge 1221, роскошного бархатного жакета Solvente 1221 1221 и брюк Offida 1221.",
@@ -107,10 +109,11 @@
         "lv": "Look 1 (Tonal chic)",
         "lt": "Look 1 (Tonal chic)",
         "pl": "Look 1 (Tonal chic)",
-        "uk": "Look 1 (Tonal chic)"
+        "uk": "Look 1 (Tonal chic)",
+        "ru": null
       },
       "text": {
-        "ru": "Образ 3 (Твидовая классика): Ансамбль из топа Logge 1133, жакета Spettatore 3331 и юбки Faggi 3331.",
+        "ru": "Образ 1 (Тональный шик): Сочетание топа Logge 1133 с элегантным жакетом Spazzola 1133 1133 и брюками Ory 1133 1133.",
         "en": "A combination of the Logge 1133 top with the elegant Spazzola 1133 1133 jacket and the Ory 1133 1133 trousers.",
         "ar": "A combination of the Logge 1133 top with the elegant Spazzola 1133 1133 jacket and the Ory 1133 1133 trousers.",
         "ka": "A combination of the Logge 1133 top with the elegant Spazzola 1133 1133 jacket and the Ory 1133 1133 trousers.",

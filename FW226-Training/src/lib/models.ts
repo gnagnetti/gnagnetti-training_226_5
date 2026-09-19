@@ -22,15 +22,17 @@ export interface Look {
 }
 
 export function getLookTitle(look: Look, lang: string): string | null {
-  if (!look.title) return null;
-  if (typeof look.title === "string") return look.title;
-  return look.title[lang] || look.title.en || look.title.ru || null;
+  const title = look.title;
+  if (!title) return null;
+  if (typeof title === "string") return title;
+  return title[lang] || title.en || title.ru || null;
 }
 
 export function getLookText(look: Look, lang: string): string {
-  if (!look.text) return "";
-  if (typeof look.text === "string") return look.text;
-  return look.text[lang] || look.text.en || look.text.ru || "";
+  const text = look.text;
+  if (!text) return "";
+  if (typeof text === "string") return text;
+  return text[lang] || text.en || text.ru || "";
 }
 
 export interface Objection {

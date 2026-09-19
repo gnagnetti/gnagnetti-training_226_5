@@ -200,11 +200,28 @@ def _translate_segment(segment: str, source_segments: list[str], translated_segm
     return translated_segments[idx]
 
 
+def _is_genuinely_english(text: str) -> bool:
+    """The Eng column sometimes just repeats the Russian text (see ID 422-431)."""
+    if not text:
+        return False
+    letters = [c for c in text if c.isalpha()]
+    if not letters:
+        return False
+    cyrillic = sum(1 for c in letters if "Ѐ" <= c <= "ӿ")
+    return cyrillic / len(letters) < 0.15
+
+
 def merge_looks(model: dict, row: dict) -> dict:
     """Give every look a per-language text/title dictionary.
 
-    ru keeps the original (Russian) segments, all the other languages get the
-    English segments of `Styling / Abbinamenti Eng`.
+    Rules (from the source spreadsheet):
+      * ru  -> the Russian segments of `Styling / Abbinamenti`, with the section
+               tag kept as the look title and removed from the body (no language
+               tags left inside the text).
+      * every other language -> the segments of `Styling / Abbinamenti Eng`.
+               When the Eng column is not really English (a few models just copy
+               the Russian text), we fall back to the same Russian text so the
+               section is never empty.
     """
     looks = model.get("looks") or []
     if not looks:
@@ -214,6 +231,7 @@ def merge_looks(model: dict, row: dict) -> dict:
     en_raw = (row.get("Styling / Abbinamenti Eng") or "").strip()
     ru_segs = split_look_segments(ru_raw) if ru_raw else []
     en_segs = split_look_segments(en_raw) if en_raw else []
+    en_is_english = _is_genuinely_english(en_raw)
 
     # align each existing look with the Russian segments
     look_to_ru: dict[int, int] = {}
@@ -247,51 +265,47 @@ def merge_looks(model: dict, row: dict) -> dict:
         current_title = lk.get("title")
 
         text_dict: dict[str, str] = dict(current_text) if isinstance(current_text, dict) else {}
-        if isinstance(current_text, str) and current_text:
-            text_dict["ru"] = current_text
         title_dict: dict[str, str | None] = (
             dict(current_title) if isinstance(current_title, dict) else {}
         )
-        if isinstance(current_title, str) and current_title:
-            title_dict["ru"] = current_title
 
         ri = look_to_ru.get(li)
         if ri is None:
-            # no Russian counterpart: keep what is already stored and mirror it
+            # no Russian counterpart found: keep what is stored and mirror it
+            if isinstance(current_text, str) and current_text:
+                text_dict["ru"] = current_text
+            if isinstance(current_title, str) and current_title:
+                title_dict["ru"] = current_title
             for lang in STYLING_LANGS_FROM_EN:
                 text_dict.setdefault(lang, text_dict.get("ru", ""))
                 title_dict.setdefault(lang, title_dict.get("ru"))
-            lk["text"] = text_dict if text_dict else current_text
-            lk["title"] = title_dict if title_dict else current_title
+            if text_dict:
+                lk["text"] = text_dict
+            if title_dict:
+                lk["title"] = title_dict
             continue
 
         ru_seg = ru_segs[ri]
-        en_seg = en_segs[ru_to_en.get(ri, -1)] if en_segs and ru_to_en.get(ri) is not None else ""
-
         ru_head, ru_body = _split_head(ru_seg)
+
+        ei = ru_to_en.get(ri)
+        en_seg = en_segs[ei] if en_segs and ei is not None else ""
         en_head, en_body = _split_head(en_seg) if en_seg else (None, "")
+        if not en_is_english:
+            # the Eng column is Russian for this model: keep RU for every language
+            en_head, en_body = ru_head, ru_body
 
-        # Russian: keep the wording the app already shows (title stripped from the body)
-        if isinstance(current_text, str) and current_text:
-            text_dict["ru"] = current_text
-            if isinstance(current_title, str) and current_title:
-                title_dict["ru"] = current_title
-            elif ru_head:
-                title_dict["ru"] = ru_head
-        else:
-            text_dict["ru"] = ru_body or ru_seg
-            title_dict["ru"] = title_dict.get("ru") or ru_head
+        # Russian: tag becomes the title, body carries no language tags
+        text_dict["ru"] = ru_body or ru_seg
+        title_dict["ru"] = ru_head
 
-        # Every other language follows the English column
+        # every other language: English column
         for lang in STYLING_LANGS_FROM_EN:
-            text_dict[lang] = en_body or en_seg or text_dict.get("ru", "")
-            title_dict[lang] = en_head or title_dict.get("ru")
+            text_dict[lang] = en_body or en_seg or text_dict["ru"]
+            title_dict[lang] = en_head
 
         lk["text"] = text_dict
-        if title_dict:
-            lk["title"] = title_dict
-        elif isinstance(current_title, str) and current_title:
-            lk["title"] = current_title
+        lk["title"] = title_dict if title_dict else lk.get("title")
 
     model["looks"] = looks
     return model
