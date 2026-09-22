@@ -155,4 +155,4 @@ for i, obj in enumerate(results, 1):
     print(f"A: {obj['a']}")
     print()
 
-print("=" * 80)
+print("=" * 80) 
